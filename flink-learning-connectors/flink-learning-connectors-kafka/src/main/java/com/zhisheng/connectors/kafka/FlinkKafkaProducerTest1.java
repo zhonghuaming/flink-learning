@@ -52,7 +52,7 @@ public class FlinkKafkaProducerTest1 {
         })
                 .addSink(new FlinkKafkaProducer<>(
                         "localhost:9092",
-                        "user_behavior",
+                        "metrics-topic-test",
                         new SimpleStringSchema()
                 )).name("flink-connectors-kafka");
 

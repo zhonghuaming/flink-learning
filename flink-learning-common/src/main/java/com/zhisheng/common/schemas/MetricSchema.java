@@ -8,6 +8,7 @@ import org.apache.flink.api.common.typeinfo.TypeInformation;
 
 import java.io.IOException;
 import java.nio.charset.Charset;
+import java.nio.charset.StandardCharsets;
 
 /**
  * Metric Schema ，支持序列化和反序列化
@@ -32,7 +33,7 @@ public class MetricSchema implements DeserializationSchema<MetricEvent>, Seriali
 
     @Override
     public byte[] serialize(MetricEvent metricEvent) {
-        return gson.toJson(metricEvent).getBytes(Charset.forName("UTF-8"));
+        return gson.toJson(metricEvent).getBytes(StandardCharsets.UTF_8);
     }
 
     @Override

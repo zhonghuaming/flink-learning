@@ -23,7 +23,7 @@ public class FlinkKafkaConsumerTest2 {
         env.setParallelism(1);
         Properties props = buildKafkaProps(parameterTool);
 
-        FlinkKafkaConsumer<String> consumer = new FlinkKafkaConsumer<>("user_behavior_sink", new SimpleStringSchema(), props);
+        FlinkKafkaConsumer<String> consumer = new FlinkKafkaConsumer<>("metrics-topic-test", new SimpleStringSchema(), props);
 
         env.addSource(consumer).print();
 
