@@ -1,6 +1,8 @@
+[![](https://tokei.rs/b1/github/zhisheng17/flink-learning)](https://github.com/zhisheng17/flink-learning) [![](https://tokei.rs/b1/github/zhisheng17/flink-learning?category=files)](https://github.com/zhisheng17/flink-learning)
+
 # Flink 学习
 
-麻烦路过的各位亲给这个项目点个 star，太不易了，写了这么多，算是对我坚持下来的一种鼓励吧！
+麻烦路过的各位亲给这个项目点个 star，太不易了，写了这么多，算是对我坚持下来的一种鼓励吧！另外特别感谢 [JetBrains](https://jb.gg/OpenSourceSupport) 公司提供的免费全家桶工具，🙏🙏🙏！
 
 ![](http://zhisheng-blog.oss-cn-hangzhou.aliyuncs.com/img/2019-05-25-124027.jpg)
 
@@ -49,6 +51,10 @@ you can see following result if build success.
 
 
 ## Change
+
+**2022/02/26** 将自己 《Flink 实战与性能优化》专栏放在 GitHub，参见 books 目录
+
+**2021/12/18** 将该项目的 Flink 版本升级至 1.14.2，如果有需要可以去老的分支查看。
 
 **2021/08/15** 将该项目的 Flink 版本升级至 1.13.2，API 发生重大改变，所以代码结构也做了相应的调整（部分代码在 master 分支已经删除，同时将之前的代码切到 [feature/flink-1.10.0](https://github.com/zhisheng17/flink-learning/tree/feature/flink-1.10.0) 上了，如果有需要可以去老的分支查看）。
 
